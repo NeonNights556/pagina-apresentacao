@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0f0f0f;
+    color: #ffffff;
+    line-height: 1.6;
+  }
+  
+  .banner {
+    height: 60vh;
+    background: url('banner.jpg') center center / cover no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .banner .overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 2rem 4rem;
+    border-radius: 15px;
+  }
+  
+  .banner h1 {
+    font-size: 4rem;
+    color: #fff;
+    text-shadow: 0 0 15px #00f0ff;
+  }
+  
+  .sobre {
+    padding: 4rem 2rem;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .sobre h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #00f0ff;
+  }
+  
+  .botao {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #00f0ff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .botao:hover {
+    background-color: #02c6d9;
+  }
+  
+  .galeria {
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .galeria h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #00f0ff;
+  }
+  
+  .imagens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .imagens img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00f0ff80;
+  }
+  
+  footer {
+    padding: 2rem;
+    background-color: #000;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #888;
+  }
+  .videos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .ultimos-videos h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 40px;
+    color: #fff;
+  }
+  
